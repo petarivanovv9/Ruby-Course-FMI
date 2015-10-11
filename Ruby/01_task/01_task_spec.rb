@@ -18,7 +18,7 @@ end
 
 describe '#convert_to_bgn' do
   it 'converts gbp' do
-    expect(convert_to_bgn(1000, :gbp)).to eq 2651.5
+    expect(convert_to_bgn(1000, :gbp)).to eq 2641.5
   end
 end
 
