@@ -181,5 +181,5 @@ danger?([[3, 8], [3, 9]], [0, 1], {width: 10, height: 10}) # => true
 Налага спазване на конвенциите за поставяне на интервали около оператори
 Ако искате да проверите дали задачата ви спазва ограниченията, качете си skeptic (gem install skeptic) и изпълнете следния ред, в който solution.rb е вашето решение:
 
-skeptic --lines-per-method 8 --line-length 80 --max-nesting-depth 1 --methods-per-class 10 --no-semicolons --no-trailing-whitespace --check-syntax --no-global-variables --english-words-for-names='xs ys' --naming-conventions --spaces-around-operators solution.rb
+skeptic --lines-per-method 8 --line-length 80 --max-nesting-depth 1 --methods-per-class 10 --no-semicolons --no-trailing-whitespace --check-syntax --no-global-variables --english-words-for-names='xs ys' --naming-conventions solution.rb
 
