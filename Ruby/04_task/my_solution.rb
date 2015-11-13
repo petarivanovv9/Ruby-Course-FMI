@@ -238,15 +238,3 @@ class SixtySixDeckHand < Hand
       [Card.new(:queen, trump_suit), Card.new(:king, trump_suit)])
   end
 end
-
-hand = BeloteDeck.new([
-          Card.new(:ace, :clubs),
-          Card.new(:jack, :spades),
-          Card.new(7, :clubs),
-          Card.new(10, :hearts),
-          Card.new(:queen, :clubs),
-          Card.new(:king, :clubs),
-          Card.new(8, :diamonds),
-          Card.new(9, :clubs),
-        ]).deal
-p hand.belote?
