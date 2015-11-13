@@ -3,4 +3,4 @@ skeptic --lines-per-method 10 --line-length 80 --max-nesting-depth 2 --no-semico
 printf "\n"
 
 echo "Running spec..."
-rspec 01_task_spec.rb --require ./01_task.rb --colour --format documentation
+rspec spec.rb --require ./01_task.rb --colour --format documentation
